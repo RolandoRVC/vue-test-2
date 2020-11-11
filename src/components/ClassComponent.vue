@@ -36,7 +36,7 @@ import Vue from "vue";
 import { Component, Prop, Watch } from "vue-property-decorator";
 
 @Component
-export default class TestComponent extends Vue {
+export default class ClassComponent extends Vue {
   Hello = "";
   Suma = 0;
   SumaValue: any = "";
